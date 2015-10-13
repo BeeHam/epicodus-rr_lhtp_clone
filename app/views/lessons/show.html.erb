@@ -5,3 +5,5 @@
 <p><%= link_to "Delete", lesson_path(@lesson), :data => {:confirm => "You sure?", :method => "delete"} %></p>
 
 <p><%= link_to "Return to lessons", lessons_path %></p>
+
+<p><%= link_to "Next", lesson_path(@next_lesson) %></p>
